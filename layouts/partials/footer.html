@@ -26,7 +26,5 @@
 <script defer language="javascript" type="text/javascript"  src="/js/toggle.js"></script>
 {{- else -}}
 <!-- case where owner disables theme button after deployment, this resets the stored theme -->
-<script>
-    localStorage.removeItem("pref-theme");
-</script>
+<script defer language="javascript" type="text/javascript"  src="/js/resetTheme.js"></script>
 {{- end }}
